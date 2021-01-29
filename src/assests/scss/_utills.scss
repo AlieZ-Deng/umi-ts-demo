@@ -1,0 +1,4 @@
+$viewWidth: 1080;
+@function get-vw($n) {
+  @return $n / $viewWidth * 100vw;
+}
