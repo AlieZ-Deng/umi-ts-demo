@@ -29,17 +29,94 @@
     line-height: 2.5385rem;
   }
 
+  .swiper-wrapper {
+    .swiper-slide:last-child {
+      .entry-item-wrap {
+        border-right: 0px;
+      }
+    }
+  }
+
   .entry-item {
-    height:6rem;
+    height: 6rem;
+
+    .entry-item-wrap {
+      border-right: 1px solid map-get($colors, 'light-1');
+    }
   }
 
   .swiper-scrollbar {
-      height: 3px;
+    height: 3px;
     background: map-get($colors, 'white');
 
     .swiper-scrollbar-drag {
       background: map-get($colors, 'grey');
       opacity: 0.5;
     }
+  }
+}
+
+.sprite {
+  background: url('./../../assests/imgaes/sprite.png') no-repeat 0 0;
+  display: block;
+  background-size: 28.8462rem;
+  height: 1.8462rem;
+  // min-height: 1.5385rem;
+  // height: auto;
+
+  &.sprite-news {
+    background-position: 63.546% 15.517%;
+    width: 1.7692rem;
+    // height: 1.5385rem;
+  }
+  &.sprite-story {
+    background-position: 90.483% 15.614%;
+    width: 1.7692rem;
+    // height: 1.5385rem;
+  }
+  &.sprite-store {
+    background-position: 36.746% 0.924%;
+    width: 1.4615rem;
+    // height: 1.6923rem;
+  }
+  &.sprite-experience {
+    background-position: 10.408% 15.517%;
+    width: 1.5385rem;
+    // height: 1.5385rem;
+  }
+  &.sprite-noviciate {
+    background-position: 89.733% 1.266%;
+    width: 1.5385rem;
+    // height: 1.6154rem;
+  }
+  &.sprite-honer {
+    background-position: 36.467% 15.287%;
+    width: 1.8462rem;
+    // height: 1.5385rem;
+  }
+  &.sprite-campsite {
+    background-position: 63.3% 0.927%;
+    width: 1.8462rem;
+    // height: 1.8462rem;
+  }
+  &.sprite-public {
+    background-position: 0 96.207%;
+    width: 1.8462rem;
+    // height: 1.5385rem;
+  }
+  &.sprite-edtion {
+    background-position: 0 96.207%;
+    width: 1.8462rem;
+    // height: 1.5385rem;
+  }
+  &.sprite-env {
+    background-position: 0 96.207%;
+    width: 1.8462rem;
+    // height: 1.5385rem;
+  }
+  &.sprite-king {
+    background-position: 0 96.207%;
+    width: 1.8462rem;
+    // height: 1.5385rem;
   }
 }

@@ -20,22 +20,108 @@ export default () => {
     return (
       <Swiper slidesPerView={4} scrollbar={{ draggable: true, hide: true }}>
         <SwiperSlide>
-          <div className="entry-item bg-white px-2 py-3">icon</div>
+          <div className="entry-item   bg-white px-2 py-3">
+            <div className="d-flex flex-column ai-center entry-item-wrap">
+              <i className="sprite mb-1 sprite-news"></i>
+              <span className="fs-sm">爆料站</span>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="entry-item bg-white px-2 py-3">icon</div>
+          <div className="entry-item   bg-white px-2 py-3">
+            <div className="d-flex flex-column ai-center entry-item-wrap">
+              <i className="sprite mb-1 sprite-story"></i>
+              <span className="fs-sm">故事站</span>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="entry-item bg-white px-2 py-3">icon</div>
+          <div className="entry-item   bg-white px-2 py-3">
+            <div className="d-flex flex-column ai-center entry-item-wrap">
+              <i className="sprite mb-1 sprite-store"></i>
+              <span className="fs-sm">周边商城</span>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="entry-item bg-white px-2 py-3">icon</div>
+          <div className="entry-item   bg-white px-2 py-3">
+            <div className="d-flex flex-column ai-center entry-item-wrap">
+              <i className="sprite mb-1 sprite-experience"></i>
+              <span className="fs-sm">体验服</span>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="entry-item bg-white px-2 py-3">icon</div>
+          <div className="entry-item   bg-white px-2 py-3">
+            <div className="d-flex flex-column ai-center entry-item-wrap">
+              <i className="sprite mb-1 sprite-noviciate"></i>
+              <span className="fs-sm">新人专区</span>
+            </div>
+          </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="entry-item bg-white px-2 py-3">icon</div>
+          <div className="entry-item   bg-white px-2 py-3">
+            <div className="d-flex flex-column ai-center entry-item-wrap">
+              <i className="sprite mb-1 sprite-honer"></i>
+              <span className="fs-sm">荣耀.传承</span>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="entry-item   bg-white px-2 py-3">
+            <div className="d-flex flex-column ai-center entry-item-wrap">
+              <i className="sprite mb-1 sprite-campsite"></i>
+              <span className="fs-sm">王者营地</span>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="entry-item   bg-white px-2 py-3">
+            <div className="d-flex flex-column ai-center entry-item-wrap">
+              <i className="sprite mb-1 sprite-public"></i>
+              <span className="fs-sm">公众号</span>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="entry-item   bg-white px-2 py-3">
+            <div className="d-flex flex-column ai-center entry-item-wrap">
+              <i className="sprite mb-1 sprite-pubilc"></i>
+              <span className="fs-sm">公众号</span>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="entry-item   bg-white px-2 py-3">
+            <div className="d-flex flex-column ai-center entry-item-wrap">
+              <i className="sprite mb-1 sprite-edition"></i>
+              <span className="fs-sm">版本介绍</span>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="entry-item   bg-white px-2 py-3">
+            <div className="d-flex flex-column ai-center entry-item-wrap">
+              <i className="sprite mb-1 sprite-env"></i>
+              <span className="fs-sm">对局环境</span>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="entry-item   bg-white px-2 py-3">
+            <div className="d-flex flex-column ai-center entry-item-wrap">
+              <i className="sprite mb-1 sprite-king"></i>
+              <span className="fs-sm">无线王者团</span>
+            </div>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="entry-item   bg-white px-2 py-3">
+            <div className="d-flex flex-column ai-center entry-item-wrap">
+              <i className="sprite mb-1 sprite-idea"></i>
+              <span className="fs-sm">创意互动营</span>
+            </div>
+          </div>
         </SwiperSlide>
       </Swiper>
     );
